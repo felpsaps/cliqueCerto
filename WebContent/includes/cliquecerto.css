@@ -1,0 +1,437 @@
+<style type="text/css">
+/*########### TIMER NORMAL ##################*/
+.tempoNormal {
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #1e5799 0%, #1e5799 3%, #2989d8 41%, #7db9e8 81%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e5799), color-stop(3%,#1e5799), color-stop(41%,#2989d8), color-stop(81%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #1e5799 0%,#1e5799 3%,#2989d8 41%,#7db9e8 81%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #1e5799 0%,#1e5799 3%,#2989d8 41%,#7db9e8 81%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #1e5799 0%,#1e5799 3%,#2989d8 41%,#7db9e8 81%); /* IE10+ */
+	background: linear-gradient(135deg,  #1e5799 0%,#1e5799 3%,#2989d8 41%,#7db9e8 81%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	width: 50px; height: 70px; margin-left: 15%;
+	text-align: center;
+	font-size: 60px;
+	color: whitesmoke;
+	float: left;
+	margin-left: 1%;
+	line-height: 70px;
+}
+
+/*########### TIMER ALERTA ##################*/
+.tempoAlerta {
+	background: #ef4043; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ef4043 10%, #ffaaaa 35%, #ef393c 72%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(10%,#ef4043), color-stop(35%,#ffaaaa), color-stop(72%,#ef393c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #ef4043 10%,#ffaaaa 35%,#ef393c 72%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #ef4043 10%,#ffaaaa 35%,#ef393c 72%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #ef4043 10%,#ffaaaa 35%,#ef393c 72%); /* IE10+ */
+	background: linear-gradient(135deg,  #ef4043 10%,#ffaaaa 35%,#ef393c 72%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef4043', endColorstr='#ef393c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	width: 50px; height: 70px;
+	text-align: center;
+	font-size: 60px;
+	color: whitesmoke;
+	float: left;
+	margin-left: 1%;
+	line-height: 70px;
+}
+
+/*########### TIMER DESABILITADO ############*/
+.tempoDesativado {
+	background: #d2d8e0; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #d2d8e0 7%, #eae8ea 41%, #e2e0e2 54%, #d8d6d8 69%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(7%,#d2d8e0), color-stop(41%,#eae8ea), color-stop(54%,#e2e0e2), color-stop(69%,#d8d6d8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #d2d8e0 7%,#eae8ea 41%,#e2e0e2 54%,#d8d6d8 69%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #d2d8e0 7%,#eae8ea 41%,#e2e0e2 54%,#d8d6d8 69%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #d2d8e0 7%,#eae8ea 41%,#e2e0e2 54%,#d8d6d8 69%); /* IE10+ */
+	background: linear-gradient(135deg,  #d2d8e0 7%,#eae8ea 41%,#e2e0e2 54%,#d8d6d8 69%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d8e0', endColorstr='#d8d6d8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	width: 50px; height: 70px;
+	text-align: center;
+	font-size: 60px;
+	color: whitesmoke;
+	float: left;
+	margin-left: 1%;
+	line-height: 70px;
+}
+
+/*########### BOTAO LANCE ###################*/
+.btnLance {
+	background: #d2d8e0; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #d2d8e0 3%, #00ed07 59%, #d2d8e0 89%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(3%,#d2d8e0), color-stop(59%,#00ed07), color-stop(89%,#d2d8e0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #d2d8e0 3%,#00ed07 59%,#d2d8e0 89%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #d2d8e0 3%,#00ed07 59%,#d2d8e0 89%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #d2d8e0 3%,#00ed07 59%,#d2d8e0 89%); /* IE10+ */
+	background: linear-gradient(135deg, #d2d8e0 3%,#00ed07 59%,#d2d8e0 89%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d8e0', endColorstr='#d2d8e0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	width: 112px; 
+	line-height: 50px;
+	box-shadow: 7px 7px 2px #888888;
+	float: left;
+	border-left: 2%;
+	border-top: 2%;
+	position: relative;
+	font-size: 16pt;
+	color: whitesmoke;
+}
+
+.btnLance:hover {
+	color: red;
+	cursor: pointer;
+	background: #f8ffe8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8ffe8 0%, #e3f5ab 33%, #b7df2d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8ffe8), color-stop(33%,#e3f5ab), color-stop(100%,#b7df2d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8ffe8 0%,#e3f5ab 33%,#b7df2d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8ffe8', endColorstr='#b7df2d',GradientType=0 ); /* IE6-9 */
+}
+
+/*########### H2 ###################*/
+h2 {
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7 43%, #e8e8e8 97%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(43%,#f7f7f7), color-stop(97%,#e8e8e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f7f7f7 43%,#e8e8e8 97%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f7f7f7 43%,#e8e8e8 97%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f7f7f7 43%,#e8e8e8 97%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f7f7f7 43%,#e8e8e8 97%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+
+	
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	box-shadow: 1px 1px 1px 1px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f7f7f7;
+	margin-left: 1%; 
+	position: relative;
+	width: 98%;
+	color: #8181F7;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 14pt;
+}
+
+/*########### QUADRO COM O PLUGIN DO FACEBOOK ###################*/
+#facebook {
+	background-color: whitesmoke;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	margin-left: 9%; 
+	width: 82%;
+	height: 360px;
+	padding-top: 1px;
+}
+
+/*########### QUADRO GERAL ###################*/
+#quadroGeral {
+	background-color: whitesmoke;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	margin-left: 9%; 
+	width: 82%;
+	height: 2350px;
+	padding-top: 5px;
+	margin-top: -50px;
+}
+
+/*########### QUADRO DE MENU E LOGIN ###################*/
+#quadroMenuTop {
+	background-color: whitesmoke;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	margin-left: 9%; 
+	width: 82%;
+	height: 200px;
+	padding-top: 5px;
+}
+
+.menuTop {
+	background-color: #E6E6E6;
+	box-shadow: 1px 1px 1px 1px #888888;
+	position: relative;
+	width: 98%;
+	height: 30px;
+	margin-left: 1%;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A4A4A4;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-weight: bold;
+	font-size: 11pt;
+	text-align: center;
+	color: #FE9A2E;
+}
+
+td.menuTop {
+	width: 12%;
+	border: none;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.menuTopLink {
+	-moz-border-radius: 5px; /* Para Firefox */
+	-webkit-border-radius: 5px; /*Para Safari e Chrome */
+	border-radius: 5px; /* Para Opera 10.5+*/
+	width: 100%;
+	line-height: 30px;	
+	float: left;
+	position: relative;
+	color: #013ADF;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 11pt;
+	background-color: #E6E6E6;
+	font-weight: bold;	
+	text-decoration: none;
+	color: #FE9A2E;
+	font-weight: bold;
+}
+a.menuTopLink:link, a.teste:visited {	
+	text-decoration: none;
+}
+a.menuTopLink:hover {	
+	background-color: #848484;
+}
+
+/*########### DIV DO LOGIN ###################*/
+.boxLogin {
+	background-color: #E6E6E6;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A4A4A4;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	position: relative;
+	float: right;
+	width: 40%;
+	height: 70px;
+	overflow: hidden;
+	font-size: 11pt;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	color: #FE9A2E;
+	font-weight: bold;	
+}
+
+.boxLogin span {
+	margin-top: 2%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	position: relative;
+}
+
+.boxLogin a:visited, .boxLogin a:link {
+	font-size: 10pt;
+	text-decoration: none;
+	color: #A4A4A4;
+	margin-top: 2%;
+	margin-bottom:0px;
+	margin-left: 1%;
+}
+
+.boxLogin a:hover {
+	text-decoration: underline;
+	color: #424242;
+}
+
+/*########### TEXTFIELD PADRAO ###################*/
+.textField {
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	height: 15px;
+}
+
+/*########### DIV PADRAO DA HOME ###################*/
+.boxHome {
+	background-color: #f7f7f7;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	box-shadow: 1px 1px 1px 1px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A4A4A4;
+	margin-left: 1%; 
+	position: relative;
+	width: 98%;	
+}
+
+
+/*########### DIV PADRAO DE UM LEILAO ###################*/
+.boxProduto {
+	background-color: #f7f7f7;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	box-shadow: 1px 1px 1px 1px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A4A4A4;
+	margin-left: 1%; 
+	margin-top: 1%; 
+	margin-bottom: 2%; 
+	position: relative; 
+	width: 32%; 
+	height: 363px; 
+	float: left;
+	text-align: center;	
+	color: #8181F7;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 11pt;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+a.boxProduto:visited, a.boxProduto:link {
+	-moz-border-radius: 0px; /* Para Firefox */
+	-webkit-border-radius: 0px; /*Para Safari e Chrome */
+	border-radius: 0px; /* Para Opera 10.5+*/
+	box-shadow: 0px 0px 0px 0px #888888;
+	text-decoration: none;
+	border: none;
+	width: 98%;
+	position: relative;
+	height: 40px;
+}
+
+/*########### TARJA PARA LEILAO NAO INICIADO ###################*/
+.tarjaPreta {
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f7f7f7 0%, #000000 23%, #000000 82%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f7f7f7), color-stop(23%,#000000), color-stop(82%,#000000), color-	stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #f7f7f7 0%,#000000 23%,#000000 82%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #f7f7f7 0%,#000000 23%,#000000 82%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #f7f7f7 0%,#000000 23%,#000000 82%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to right,  #f7f7f7 0%,#000000 23%,#000000 82%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+	width: 100%;
+	height: 120px;
+	margin-top: -168px;
+	opacity: 0.7;
+	color:whitesmoke;
+	font-size: 16pt;
+	line-height: 40px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+/*########### DIV PARA INFORMACOES DO GANHADOR DO LEILAO ###################*/
+.boxUltimosGanhadores {
+	background-color: #f7f7f7;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	box-shadow: 1px 1px 1px 1px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A4A4A4;
+	margin-left: 1%; 
+	margin-top: 1%; 
+	position: relative; 
+	width: 98%; 
+	height: 120px; 
+	float: left;
+} 
+
+/*########### DIV PARA OS BOTOES DE PAGINACAO ###################*/
+.boxPaginacao {
+	background-color: #f7f7f7;
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	box-shadow: 1px 1px 1px 1px #888888;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #A4A4A4;
+	margin-left: 1%;  
+	margin-bottom: 2%; 
+	position: relative; 
+	width: 98%; 
+	height: 50px; 
+	float: left;
+	text-align: center;
+}
+
+/*########### BOTAO DA PAGINA ATUAL ###################*/
+.btnNumeroPaginacaoAtual {
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	width: 35px;
+	height: 35px;
+	font-size: 12pt; 
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	margin-left: 4px;
+	position: relative;
+	margin-top: 7px;
+	line-height: 35px;
+	background-color: #013ADF;
+	color: whitesmoke;
+	font-family: sans-serif;
+	border-color: #013ADF;
+	font-weight: bold;
+}
+
+/*########### BOTAO OUTRA PAGINA ###################*/
+.btnNumeroPaginacaoIr {
+	-moz-border-radius: 8px; /* Para Firefox */
+	-webkit-border-radius: 8px; /*Para Safari e Chrome */
+	border-radius: 8px; /* Para Opera 10.5+*/
+	width: 35px;
+	height: 35px;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	position: relative;
+	margin-top: 7px;
+	line-height: 35px;
+	margin-left: 4px;
+	border-color: #013ADF;
+	color: #013ADF;
+	font-size: 12pt;
+	font-family: sans-serif;
+	background-color: #E6E6E6;
+	font-weight: bold;
+}
+a.btnNumeroPaginacaoIr:link, a.btnNumeroPaginacaoIr:visited {	
+	text-decoration: none;
+}
+
+</style>
+
